@@ -1,10 +1,10 @@
 # Employee Data Management Application
 
-### [Frontend APP Link:]()
+### Frontend: [Frontend APP Link](https://verto-ase-challenge-lcs7.vercel.app/)
 
-### [Backend Server Link:](https://verto-ase-challenge-kappa.vercel.app/)
+### Backend: [Backend Server Link](https://verto-ase-challenge-kappa.vercel.app/)
 
-### [Postman API Collection Link:](https://www.postman.com/spaceflight-geologist-44542914/public-workplace/collection/uibt63b/verto-ase-challenge?action=share&source=copy-link&creator=32467370)
+### Postman Collection: [Postman API Collection Link](https://www.postman.com/spaceflight-geologist-44542914/public-workplace/collection/uibt63b/verto-ase-challenge?action=share&source=copy-link&creator=32467370)
 
 ### Overview
 This is a full-stack CRUD (Create, Read, Update, Delete) application for managing employee data. It allows users to add, view, edit, and delete employee records, with features like search filtering and form validation. The backend is built with Node.js and Express, using Prisma for database interactions, while the frontend uses React with Ant Design for a responsive UI.
@@ -61,18 +61,19 @@ cd employee-backend
       ```
       npx prisma migrate dev --name init
       ```
-  - Generate Prisma client:
-  ```
-  npx prisma generate
-  ```
+    - Generate Prisma client:
+      ```
+      npx prisma generate
+      ```
+
   - Start the backend server:
   ```
   npm run dev  # For development with ts-node
 
   npm run build && npm start  # For production
-```
+  ```
 
-  -  Run tests:
+- Run tests:
    ```
    npm test
    ```
