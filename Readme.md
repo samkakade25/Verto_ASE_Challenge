@@ -37,14 +37,14 @@ The project follows an MVC architecture on the backend and component-based struc
 ### Setup and Installation
 1. Clone the Repository
    ```
-   git clone https://github.com/your-username/employee-management-app.git
-   cd employee-management-app
+   git clone https://github.com/samkakade25/Verto_ASE_Challenge.git
+   cd Verto_ASE_Challenge
    ```
 2. Backend Setup
-Navigate to employee-backend/:
-```
-cd employee-backend
-```
+   Navigate to employee-backend/:
+   ```
+   cd backend
+   ```
 
 - Install dependencies:
   ```
@@ -80,6 +80,24 @@ cd employee-backend
    The backend API will be available at http://localhost:3000/api/employees.
 
 ### 3. Frontend Setup
+  Navigate to employee-frontend/:
+  ```
+  cd ../frontend
+  ```
+  - Install dependencies:
+  ```
+  npm install
+  ```
+  - Set up environment variables: Create a .env file (for Vite):
+  ```
+  VITE_API_URL=http://localhost:3000/api/employee
+  ```
+  - Start the frontend development server:
+  ```
+  npm run dev
+  ```
+  The app will be available at http://localhost:5173.
+
 
 ### 4. Running the Full Application
 - Start the backend first.
